@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- SEO Meta Tags: Include essential meta tags for SEO. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Your Name, CV, Job Title, Skills, Education, Experience, Projects">
+    <meta name="author" content="Your Name">
+
+    <title>Single Page CV</title>
+
+    <!-- Open Graph (OG) Tags: Add OG tags for better social media sharing. -->
+    <meta property="og:title" content="Your Name | Job Title">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon: Add a favicon for your CV page. -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+    <style>
+        :root {
+            --primary-color: #007acc;
+            --secondary-color: #333;
+            --section-color: #63A661;
+            --background-color: #909090;
+            --cv-container-color: #faffff;
+            --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        body {
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+
+            font-weight: 500;
+            display: flex;
+        }
+
+        .cv-container {
+
+            font-family: var(--font-family);
+
+            border: var(--secondary-color) solid 3px;
+            color: var(--secondary-color);
+
+            margin: 0 auto;
+            box-sizing: border-box;
+            padding: 0.5in 0.6in;
+            width: 8.5in;
+            /* height: 12in; */
+            background-color: var(--cv-container-color);
+            box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
+        }
+
+        hr {
+            border: none;
+            border-top: 3px solid var(--secondary-color);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        h3 {
+            color: var(--section-color);
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        ul {
+            margin: 0;
+        }
+
+        @media screen and (max-width: 65rem) {
+            body {
+                background-color: white;
+            }
+
+            .cv-container {
+                padding: 2rem;
+                margin: 0 auto;
+                border: none;
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cv-container">
+        <hr>
+        <header>
+            <h1>Your Name</h1>
+            <h3>Junior Frontend Developer</h3>
+            <div class="contact-info">
+                <address>
+                    123 Your Street<br>
+                    Your City, ST 12345
+                </address>
+                <p>(123) 456-7890</p>
+                <p>no_reply@example.com</p>
+            </div>
+        </header>
+        <main>
+            <section id="Skills">
+                <h3>Skills</h3>
+                <p>HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design, Technical Writing,
+                    Presentation</p>
+            </section>
+
+            <section id="Education">
+                <h3>Education</h3>
+
+                <h2>School Name, Location - Degree</h2>
+                <p>Month 20xx to Month 20xx</p>
+                <p>List of exciting things you did at university</p>
+
+            </section>
+
+            <section id="Experience">
+                <h3>Experience</h3>
+
+                <h2>Company Name, Location - Job Title</h2>
+                <p>Month 20xx to Month 20xx</p>
+                <ul>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                </ul>
+                <p>Skills: List of skills used or gained at this company</p>
+
+                <h2>Company Name, Location - Job Title</h2>
+                <p>Month 20xx to Month 20xx</p>
+                <ul>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                </ul>
+                <p>Skills: List of skills used or gained at this company</p>
+
+            </section>
+
+            <section id="Across the Internet">
+                <h3>Across the Internet</h3>
+                <p>Add your LinkedIn, GitHub profile links</p>
+            </section>
+
+        </main>
+    </div>
+</body>
+
+</html>
